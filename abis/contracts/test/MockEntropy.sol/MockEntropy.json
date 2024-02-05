@@ -1,0 +1,8 @@
+[
+  "constructor()",
+  "function feeInWei() view returns (uint128)",
+  "function getFee(address) view returns (uint128)",
+  "function request(address,bytes32,bool) payable returns (uint64)",
+  "function reveal(address,uint64,bytes32,bytes32) returns (bytes32)",
+  "function sequenceNumberCounter() view returns (uint256)"
+]

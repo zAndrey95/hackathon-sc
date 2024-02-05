@@ -1,0 +1,5 @@
+[
+  "event Registered(tuple(uint128,uint128,bytes32,uint64,bytes,bytes,uint64,uint64,bytes32,uint64))",
+  "event Requested(tuple(address,uint64,uint32,bytes32,uint64,address,bool))",
+  "event Revealed(tuple(address,uint64,uint32,bytes32,uint64,address,bool),bytes32,bytes32,bytes32,bytes32)"
+]

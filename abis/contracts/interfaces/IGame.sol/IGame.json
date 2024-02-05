@@ -1,0 +1,3 @@
+[
+  "function userStats(address) view returns (tuple(uint256,uint256))"
+]

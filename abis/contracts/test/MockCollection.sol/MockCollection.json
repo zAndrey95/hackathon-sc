@@ -1,0 +1,5 @@
+[
+  "constructor(uint64)",
+  "function mint(string) returns (uint256)",
+  "function totalSupply() view returns (uint64)"
+]

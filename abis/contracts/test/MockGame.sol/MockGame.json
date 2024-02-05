@@ -1,0 +1,5 @@
+[
+  "function setMockStats(address,tuple(uint256,uint256))",
+  "function stats(address) view returns (uint256, uint256)",
+  "function userStats(address) view returns (tuple(uint256,uint256))"
+]

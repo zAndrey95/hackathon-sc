@@ -1,0 +1,5 @@
+[
+  "error QueueEmpty()",
+  "error QueueFull()",
+  "error QueueOutOfBounds()"
+]

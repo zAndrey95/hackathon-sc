@@ -1,0 +1,16 @@
+[
+  "event Registered(tuple(uint128,uint128,bytes32,uint64,bytes,bytes,uint64,uint64,bytes32,uint64))",
+  "event Requested(tuple(address,uint64,uint32,bytes32,uint64,address,bool))",
+  "event Revealed(tuple(address,uint64,uint32,bytes32,uint64,address,bool),bytes32,bytes32,bytes32,bytes32)",
+  "function combineRandomValues(bytes32,bytes32,bytes32) pure returns (bytes32)",
+  "function constructUserCommitment(bytes32) pure returns (bytes32)",
+  "function getAccruedPythFees() view returns (uint128)",
+  "function getDefaultProvider() view returns (address)",
+  "function getFee(address) view returns (uint128)",
+  "function getProviderInfo(address) view returns (tuple(uint128,uint128,bytes32,uint64,bytes,bytes,uint64,uint64,bytes32,uint64))",
+  "function getRequest(address,uint64) view returns (tuple(address,uint64,uint32,bytes32,uint64,address,bool))",
+  "function register(uint128,bytes32,bytes,uint64,bytes)",
+  "function request(address,bytes32,bool) payable returns (uint64)",
+  "function reveal(address,uint64,bytes32,bytes32) returns (bytes32)",
+  "function withdraw(uint128)"
+]
